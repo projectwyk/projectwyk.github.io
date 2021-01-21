@@ -1,7 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project WYK</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+
     <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <div class=container>
+            <div>
+                <h2 id=accent>Project WYK</h2>
+                <h1>Coming soon</h1>
+            </div>
+        </div>
     </body>
+
+    <style>
+        body, html {
+            font-family: "DM Sans", sans-serief;
+            text-align: center;
+            background-color: black;
+            margin: 0;
+            height: 100%;
+            color: white;
+        }
+        .container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            .container h1 {
+                font-size: 60px;
+                font-weight: bold;
+            }
+            .container h2 {
+                font-size: 30px;
+                font-weight: lighter;
+                color: rgb(200,200,200)
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .container h1 {
+                font-size: 60px;
+                font-weight: bold;
+            }
+            .container h2 {
+                font-size: 50px;
+                font-weight: lighter;
+                color: rgb(200,200,200)
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .container h1 {
+                font-size: 70px;
+                font-weight: bold;
+            }
+            .container h2 {
+                font-size: 45px;
+                font-weight: lighter;
+                color: rgb(200,200,200)
+            }
+        }
+    </style>
 </html>
