@@ -1,38 +1,17 @@
 body
-    font-family: 'DM Sans', sans-serief
+    font-family: 'DM Sans', sans-serif
     margin: 0
-    text-align: center
-    .block-hero
-        padding: 0 300px 0 300px
-    h1
-        font-size: 50px
-        margin: 0
-        padding-bottom: 5px
-        text-align: center
-
-    h2
-        font-size: 20px
-        margin: 15px 0px
-        font-weight: 500
-        padding-bottom: 20px
-        text-align: center
-        color: rgb(100,100,100)
-    a.round
-        font-size: 23px
-        font-weight: 700
+    font-weight: 500
+    max-width: 2000px
+    .round-button
         border-style: solid
-        border-radius: 180px
         padding: 10px 20px
-        i
-            padding-left: 10px
-    a.round:hover
-        background-color: black
-        color: white
-    
-body, html
-    height: 100%
-    
+        border-radius: 50px
+    .round-button:hover
+        background-color: rgba(255,255,255,0.5)
+    .inline-button:hover
+        text-decoration: underline
+    img
+        pointer-events: none
 @import hero
-@import overview
-@import morelinks
-@import footer
+@import section
