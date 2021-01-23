@@ -3,72 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Project WYK</title>
+        <title>Home</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <script src="https://kit.fontawesome.com/0a827a3361.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $("#nav").load("nav.html"); 
+                $("#footer").load("footer.html"); 
+            });
+        </script>
     </head>
-
+    
     <body>
-        <div class=container>
+        <nav id=nav></nav>
+
+        <section class="hero">
+            <div class="hero-hero">Building our secondary school,<br>Wah Yan College Kowloon, in Minecraft.</div>
+            <a class="round-button">PROGRESS<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+        </section>
+
+        <section class="section" style="padding-top: 120px;">
             <div>
-                <h2 id=accent>Project WYK</h2>
-                <h1>Coming soon</h1>
+                <span class="section-name">About the project</span>
+                <div class="section-slogan">Explore. Be amazed.</div>
+                <div class="section-text">Project WYK began in April 2020 as we tried our best to make a near-to-scale replica of the campus. And after months and months of work and endless building, our beloved WYK campus now lives in Minecraft.</div>
+                <a class="inline-button" style="padding-right: 40px">Learn more ></a><a class="inline-button">Watch the video ></a>
             </div>
-        </div>
+            <img src=images/campus.png>
+        </section>
+
+        <section class="section">
+            <img src=images/campus.png>
+            <div>
+                <span class="section-name">About us</span>
+                <div class="section-slogan">Who are we?</div>
+                <div class="section-text">Project WYK began in April 2020 as we tried our best to make a near-to-scale replica of the campus. And after months and months of work and endless building, our beloved WYK campus now lives in Minecraft.</div>
+                <a class="inline-button">Learn more ></a>
+            </div>
+        </section>
+
+        <section class="section" style="padding-bottom:120px">
+            <div>
+                <span class="section-name">Learn more</span>
+                <div class="section-slogan">Know more about it.</div>
+                <div class="section-text">Project WYK began in April 2020 as we tried our best to make a near-to-scale replica of the campus. And after months and months of work and endless building, our beloved WYK campus now lives in Minecraft.</div>
+                <a class="inline-button" style="padding-right: 40px">Progress ></a><a class="inline-button">Gallery ></a>
+            </div>
+            <img src=images/campus.png>
+        </section>
+
+        <footer id=footer></footer>
     </body>
-
-    <style>
-        body, html {
-            font-family: "DM Sans", sans-serief;
-            text-align: center;
-            background-color: black;
-            margin: 0;
-            height: 100%;
-            color: white;
-        }
-        .container {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Extra small devices (phones, 600px and down) */
-        @media only screen and (max-width: 600px) {
-            .container h1 {
-                font-size: 60px;
-                font-weight: bold;
-            }
-            .container h2 {
-                font-size: 30px;
-                font-weight: lighter;
-                color: rgb(200,200,200)
-            }
-        }
-
-        /* Medium devices (landscape tablets, 768px and up) */
-        @media only screen and (min-width: 768px) {
-            .container h1 {
-                font-size: 60px;
-                font-weight: bold;
-            }
-            .container h2 {
-                font-size: 50px;
-                font-weight: lighter;
-                color: rgb(200,200,200)
-            }
-        }
-
-        /* Large devices (laptops/desktops, 992px and up) */
-        @media only screen and (min-width: 992px) {
-            .container h1 {
-                font-size: 70px;
-                font-weight: bold;
-            }
-            .container h2 {
-                font-size: 45px;
-                font-weight: lighter;
-                color: rgb(200,200,200)
-            }
-        }
-    </style>
 </html>
