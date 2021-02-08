@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About - Project WYK</title>
+        <link type="text/css" rel="stylesheet" href="css/about.css"/>
+        <script src="https://kit.fontawesome.com/0a827a3361.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $("#nav").load("nav.html"); 
+                $("#footer").load("footer.html"); 
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class=page-wrap>
+            <nav id=nav></nav>
+
+            <section class="hero">
+                <span>About</span>
+                <div>Project WYK is a leisure project that began in April 2020 as we tried our best to make a near-to-scale replica of the campus. The Project WYK map contains three major parts: the campus itself, custom-made fun to play minigames, and a railway system connecting the above two areas. And after months and months of work and endless building, we are proud to present the Project WYK map. Click a tile to learn about it.</div>
+            </section>
+
+            <section class="content">
+                <div class="content-box" onclick="location.href='index.html';">
+                    <div class="content-image-parent">
+                        <div class="content-image-child" style="background-image: url(images/campus.png)"></div>
+                    </div>
+                    <div class="content-text-box">
+                        <div class="content-head">Campus</div>
+                        <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+                    </div>
+                </div>
+
+                    <div class="content-box" onclick="location.href='index.html';">
+                        <div class="content-image-parent">
+                            <div class="content-image-child" style="background-image: url(images/minigames.png)"></div>
+                        </div>
+                        <div class="content-text-box">
+                            <div class="content-head">Minigames</div>
+                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="content-box" onclick="location.href='index.html';">
+                        <div class="content-image-parent">
+                            <div class="content-image-child" style="background-image: url(images/rail.png)"></div>
+                        </div>
+                        <div class="content-text-box">
+                            <div class="content-head">Railway</div>
+                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+                        </div>
+                    </div>                
+
+                    <div class="content-box" onclick="location.href='index.html';">
+                        <div class="content-image-parent">
+                            <div class="content-image-child" style="background-image: url(images/rail.png)"></div>
+                        </div>
+                        <div class="content-text-box">
+                            <div class="content-head">Us</div>
+                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <footer id=footer></footer>
+    </body>
+</html>

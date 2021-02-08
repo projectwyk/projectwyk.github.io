@@ -1,0 +1,95 @@
+.hero {
+  padding: 50px 150px;
+  text-align: center;
+}
+.hero span {
+  font-size: 40px;
+  font-weight: 600;
+}
+.hero div {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #828282;
+  font-size: 19px;
+  font-weight: 500;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.content {
+  padding: 0px 40px 50px 40px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+.content .content-head {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+.content .content-text-box {
+  padding-top: 20px;
+  heihgt: 40%;
+}
+.content .content-image-parent {
+  height: 60%;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+.content .content-image-child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  transition: all 0.3s;
+}
+.content .content-box:hover .content-image-child {
+  transform: scale(1.2);
+}
+.content .content-box:hover {
+  filter: drop-shadow(0px 3px 15px gray);
+}
+.content .content-box {
+  height: 300px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.content .button {
+  font-size: 17px;
+  font-weight: 500;
+  color: royalblue;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  font-weight: 500;
+  max-width: 2000px;
+}
+body .round-button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+}
+body .round-button i {
+  padding-left: 10px;
+}
+body .round-button:hover {
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5)) opacity(93%);
+}
+body img {
+  pointer-events: none;
+  height: auto;
+  max-width: 70%;
+  border-radius: 15px;
+}
+
+.page-wrap {
+  min-height: calc(100vh - 230px);
+}
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,90 @@
+.hero {
+  padding: 130px 150px;
+  color: white;
+  text-align: center;
+  background-image: url(../images/campus-hero.png);
+  background-size: cover;
+}
+.hero .hero-hero {
+  font-size: 45px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+.hero .hero-desc {
+  font-size: 20px;
+  padding-bottom: 60px;
+  max-width: 850px;
+  margin: auto;
+}
+.hero a {
+  font-size: 20px;
+}
+.hero .hero-download {
+  background-color: #678d5e;
+}
+.hero .hero-learn {
+  background-color: #6d6d6d;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 150px;
+  column-gap: 70px;
+}
+.section img {
+  height: auto;
+  max-width: 50%;
+}
+.section .section-text {
+  max-width: 500px;
+  padding-bottom: 20px;
+}
+.section .section-title {
+  font-size: 40px;
+  padding: 5px 0 15px 0;
+  font-weight: 600;
+}
+.section .section-sub {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #646464;
+}
+.section .round-button {
+  background-color: #464646;
+  font-size: 17px;
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  font-weight: 500;
+  max-width: 2000px;
+}
+body .round-button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+}
+body .round-button i {
+  padding-left: 10px;
+}
+body .round-button:hover {
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5)) opacity(93%);
+}
+body img {
+  pointer-events: none;
+  height: auto;
+  max-width: 70%;
+  border-radius: 15px;
+}
+
+.page-wrap {
+  min-height: calc(100vh - 230px);
+}
+
+/*# sourceMappingURL=home.css.map */

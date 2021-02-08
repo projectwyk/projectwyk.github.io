@@ -1,22 +1,22 @@
 <section>
-    <div style="flex-grow: 0.7; font-weight: bold; color: white;">PROJECT WYK</div>
-    <a>Home</a>
-    <a>About</a>
-    <a>Progress</a>
+    <a href="index.html" style="flex-grow: 0.7; font-weight: 600; color: white;">PROJECT WYK</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="download.html">Download</a>
     <a>Gallery</a>
 </section>
 
 <style>
     nav {
-        position: -webkit-sticky; /* Safari */
+        position: -webkit-sticky; /* Safari*/
+        background-color: rgba(0,30,0,0.8);
         position: sticky;
         top: 0;
-        color: rgb(230,230,230);
-        background-color: rgba(11,96,50,0.95);
         font-size: 20px;
+        z-index: 1
     }
     nav section {
-        padding: 12px 150px;
+        padding: 10px 150px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -24,5 +24,10 @@
     }
     nav a:hover {
         color: rgb(180,180,180);
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(230,230,230);
+        font-size: 17px;
     }
 </style>

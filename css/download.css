@@ -1,0 +1,54 @@
+.hero {
+  padding: 50px 150px;
+  text-align: center;
+}
+.hero span {
+  font-size: 40px;
+  font-weight: 600;
+}
+.hero div {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: #646464;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 750px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+}
+.content #title {
+  flex-grow: 0.1;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  font-weight: 500;
+  max-width: 2000px;
+}
+body .round-button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+}
+body .round-button i {
+  padding-left: 10px;
+}
+body .round-button:hover {
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5)) opacity(93%);
+}
+body img {
+  pointer-events: none;
+  height: auto;
+  max-width: 70%;
+  border-radius: 15px;
+}
+
+.page-wrap {
+  min-height: calc(100vh - 230px);
+}
+
+/*# sourceMappingURL=download.css.map */
