@@ -1,14 +1,13 @@
 .hero {
-  padding: 50px 150px;
-  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 .hero span {
   font-size: 40px;
   font-weight: 600;
 }
 .hero div {
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 5px;
   color: #828282;
   font-size: 19px;
   font-weight: 500;
@@ -16,64 +15,43 @@
   margin: auto;
 }
 
-.content {
-  padding: 0px 40px 50px 40px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
+.main-content .tab-content {
+  padding-top: 1.5rem;
 }
-.content .content-head {
-  font-size: 25px;
+.main-content .tab-content h3 {
   font-weight: 600;
-  padding: 0 0 5px 0;
-  text-transform: uppercase;
 }
-.content .content-text-box {
-  padding-top: 20px;
-  heihgt: 40%;
-}
-.content .content-image-parent {
-  height: 60%;
-  overflow: hidden;
-  border-radius: 15px 15px 0 0;
-}
-.content .content-image-child {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  transition: all 0.3s;
-}
-.content .content-box:hover .content-image-child {
-  transform: scale(1.2);
-}
-.content .content-box:hover {
-  filter: drop-shadow(0px 3px 15px gray);
-}
-.content .content-box {
-  height: 300px;
-  background-color: #fafafa;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-.content .button {
-  font-size: 17px;
+.main-content .tab-content p {
   font-weight: 500;
-  color: royalblue;
+  font-size: 18px;
+  color: #646464;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.main-content .nav-pills > li > a.active {
+  background-color: #e4e4e4;
+  color: black;
+  font-size: 17px;
+}
+.main-content .nav-pills > li > a {
+  font-size: 17px;
+  color: #828282;
+}
+.main-content .nav-pills > li > a:hover {
+  color: black;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   margin: auto;
   font-weight: 500;
-  max-width: 2000px;
 }
 body .round-button {
   padding: 10px 20px;
   border-radius: 50px;
   transition: all 0.15s ease-in-out;
   text-decoration: none;
+  color: white;
 }
 body .round-button i {
   padding-left: 10px;
@@ -89,7 +67,7 @@ body img {
 }
 
 .page-wrap {
-  min-height: calc(100vh - 230px);
+  min-height: calc(100vh - 220px);
 }
 
 /*# sourceMappingURL=about.css.map */

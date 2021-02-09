@@ -4,6 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About - Project WYK</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
         <link type="text/css" rel="stylesheet" href="css/about.css"/>
         <script src="https://kit.fontawesome.com/0a827a3361.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,56 +28,59 @@
     </head>
 
     <body>
-        <div class=page-wrap>
-            <nav id=nav></nav>
+        <div class="page-wrap">
+            <section id=nav></section>
 
-            <section class="hero">
+            <section class="container hero">
                 <span>About</span>
-                <div>Project WYK is a leisure project that began in April 2020 as we tried our best to make a near-to-scale replica of the campus. The Project WYK map contains three major parts: the campus itself, custom-made fun to play minigames, and a railway system connecting the above two areas. And after months and months of work and endless building, we are proud to present the Project WYK map. Click a tile to learn about it.</div>
+                <div>Click to learn more about Project WYK.</div>
             </section>
 
-            <section class="content">
-                <div class="content-box" onclick="location.href='index.html';">
-                    <div class="content-image-parent">
-                        <div class="content-image-child" style="background-image: url(images/campus.png)"></div>
+            <section class="main-content container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
+                </li>
+            </ul>
+  
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12">
+                            <h3>Background</h3>
+                            <p>Project WYK is a leisure project that began in April 2020 as we tried our best to make a near-to-scale replica of the campus. The Project WYK map contains three major parts: the campus itself, custom-made fun to play minigames, and a railway system connecting the above two areas. And after months and months of work and endless building, we are proud to present the Project WYK map.</p>
+                        </div>
+                        <div class="col-md-5 col-sm-12"><img src=images/campus.png class="img-fluid"></div>
                     </div>
-                    <div class="content-text-box">
-                        <div class="content-head">Campus</div>
-                        <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
+                    
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12">
+                            <h3>Background</h3>
+                            <p>Project WYK is a leisure project that began in April 2020 as we tried our best to make a near-to-scale replica of the campus. The Project WYK map contains three major parts: the campus itself, custom-made fun to play minigames, and a railway system connecting the above two areas. And after months and months of work and endless building, we are proud to present the Project WYK map.</p>
+                        </div>
+                        <div class="col-md-5 col-sm-12"><img src=images/campus.png class="img-fluid"></div>
                     </div>
+                    <h3>Background</h3>
+                    <p>Project WYK is a leisure project that began in April 2020 as we tried our best to make a near-to-scale replica of the campus. The Project WYK map contains three major parts: the campus itself, custom-made fun to play minigames, and a railway system connecting the above two areas. And after months and months of work and endless building, we are proud to present the Project WYK map.</p>
                 </div>
-
-                    <div class="content-box" onclick="location.href='index.html';">
-                        <div class="content-image-parent">
-                            <div class="content-image-child" style="background-image: url(images/minigames.png)"></div>
-                        </div>
-                        <div class="content-text-box">
-                            <div class="content-head">Minigames</div>
-                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="content-box" onclick="location.href='index.html';">
-                        <div class="content-image-parent">
-                            <div class="content-image-child" style="background-image: url(images/rail.png)"></div>
-                        </div>
-                        <div class="content-text-box">
-                            <div class="content-head">Railway</div>
-                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
-                        </div>
-                    </div>                
-
-                    <div class="content-box" onclick="location.href='index.html';">
-                        <div class="content-image-parent">
-                            <div class="content-image-child" style="background-image: url(images/rail.png)"></div>
-                        </div>
-                        <div class="content-text-box">
-                            <div class="content-head">Us</div>
-                            <a class="button">Learn about<i class="fas fa-arrow-right" style="padding-left: 10px"></i></a>
-                        </div>
-                    </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+                <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+            </div>
             </section>
         </div>
-        <footer id=footer></footer>
+
+        <footer id=footer class="container-sm"></footer>
     </body>
 </html>

@@ -1,60 +1,39 @@
 .hero
-    padding: 50px 150px    
-    text-align: center
+    padding-top: 50px
+    padding-bottom: 40px
     span
         font-size: 40px
         font-weight: 600
     div
-        padding-top: 15px
-        padding-bottom: 20px
+        padding-top: 5px
         color: rgb(130,130,130)
         font-size: 19px
         font-weight: 500
         max-width: 1500px
         margin: auto
 
-.content
-    padding: 0px 40px 50px 40px
-    text-align: center
-    display: grid
-    grid-template-columns: repeat(4, 1fr)
-    column-gap: 20px
-    .content-head
-        font-size: 25px
-        font-weight: 600
-        padding: 0 0 5px 0
-        text-transform: uppercase
+.main-content
+    .tab-content
+        padding-top: 1.5rem
+        h3
+            font-weight: 600
+        p
+            font-weight: 500
+            font-size: 18px
+            color: rgb(100,100,100)
+            margin-top: 1rem
+            margin-bottom: 2rem
 
-    .content-text-box
-        padding-top: 20px
-        heihgt: 40%
-        
-    .content-image-parent
-        height: 60%
-        overflow: hidden
-        border-radius: 15px 15px 0 0
-    .content-image-child
-        height: 100%
-        width: 100%
-        background-size: cover
-        transition: all 0.3s
-        
-    .content-box:hover .content-image-child
-        transform: scale(1.2)
-        //filter: brightness(60%)
-    .content-box:hover
-        filter: drop-shadow(0px 3px 15px gray)
-
-    .content-box
-        height: 300px
-        background-color: rgb(250,250,250)
-        border-radius: 15px
-        cursor: pointer
-        transition: all 0.3s
-
-    .button
+    .nav-pills > li > a.active
+        background-color:#e4e4e4
+        color: black
         font-size: 17px
-        font-weight: 500
-        color: royalblue
+
+    .nav-pills > li > a
+        font-size: 17px
+        color: rgb(130,130,130)
+
+    .nav-pills > li > a:hover
+        color: black
 
 @import main

@@ -26,13 +26,13 @@ body {
   font-family: "Poppins", sans-serif;
   margin: auto;
   font-weight: 500;
-  max-width: 2000px;
 }
 body .round-button {
   padding: 10px 20px;
   border-radius: 50px;
   transition: all 0.15s ease-in-out;
   text-decoration: none;
+  color: white;
 }
 body .round-button i {
   padding-left: 10px;
@@ -48,7 +48,7 @@ body img {
 }
 
 .page-wrap {
-  min-height: calc(100vh - 230px);
+  min-height: calc(100vh - 220px);
 }
 
 /*# sourceMappingURL=download.css.map */
